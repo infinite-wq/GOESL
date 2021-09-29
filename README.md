@@ -9,7 +9,10 @@ eslgo is a FreeSWITCH™ ESL library for GoLang. eslgo was written from the grou
 6. receive ringing , connected event, play start and play stop event, recording start and recording end event.
 
 #Handler.go
+
 It supports both inbound and outbound event socket connections, acting either as a client connecting to FreeSWITCH or as a server accepting connections from FreeSWITCH to control calls.
 A client that connects to FreeSWITCH and originate a call, pointing to an Event Socket server, which answers the call and instructs FreeSWITCH to play an audio file.
+
+
 #events.lua
 It perform the recording in every 10 seconds.
