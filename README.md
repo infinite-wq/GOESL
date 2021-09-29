@@ -10,7 +10,7 @@ WORKING:---
 
 #HANDLE.GO
 
-It supports both inbound and outbound event socket connections, acting either as a client connecting to FreeSWITCH or as a server accepting connections from FreeSWITCH to control calls.
+It supports outbound event socket connections, acting either as a client connecting to FreeSWITCH or as a server accepting connections from FreeSWITCH to control calls.
 A client that connects to FreeSWITCH and originate a call, pointing to an Event Socket server, which answers the call and instructs FreeSWITCH to play an audio file.
 
 #EVENTS.LUA
